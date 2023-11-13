@@ -1,0 +1,91 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* html,body{
+  overflow-x: hidden;
+} */
+body{
+  height: auto;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+ol,
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+img,
+svg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+span,
+p html,
+body {
+  font-family: "amiri";
+  color: #24170b;
+}
+
+/* 내장폰트 적용 */
+
+/* Amiri */
+@font-face {
+  font-family: "Amiri";
+  src: url(../fonts/Amiri/Amiri-Bold.ttf);
+  src: url(../fonts/Amiri/Amiri-BoldItalic.ttf);
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Amiri";
+  src: url(../fonts/Amiri/Amiri-Italic.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Amiri";
+  src: url(../fonts/Amiri/Amiri-Regular.ttf);
+  font-weight: 500;
+}
+
+/*NotoSerifKR */
+@font-face {
+  font-family: "NotoSerifKR";
+  src: url(../fonts/Noto_Serif_KR/NotoSerifKR-Black.otf);
+  font-weight: 900;
+}
+@font-face {
+  font-family: "NotoSerifKR";
+  src: url(../fonts/Noto_Serif_KR/NotoSerifKR-SemiBold.otf);
+  src: url(../fonts/Noto_Serif_KR/NotoSerifKR-Bold.otf);
+  font-weight: 800;
+}
+@font-face {
+  font-family: "NotoSerifKR";
+  src: url(../fonts/Noto_Serif_KR/NotoSerifKR-ExtraLight.otf);
+  src: url(../fonts/Noto_Serif_KR/NotoSerifKR-Light.otf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: "NotoSerifKR";
+  src: url(../fonts/Noto_Serif_KR/NotoSerifKR-Medium.otf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: "NotoSerifKR";
+  src: url(../fonts/Noto_Serif_KR/NotoSerifKR-Regular.otf);
+  font-weight: 500;
+}
+/* span{
+    font-family: "amiri";
+}
+p{
+    font-family: 'NotoSerifKR';
+} */
